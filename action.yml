@@ -1,0 +1,10 @@
+name: PCBoardJsonParser
+description: Parses the PCBoard data json and exports it to various formats
+author: Eris
+inputs:
+  json-file:
+    description: Path to the json file to parse
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
